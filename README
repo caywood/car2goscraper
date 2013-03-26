@@ -1,11 +1,10 @@
-Capital Bikeshare (CABI) Usage Python Screen Scrapper
+car2go Usage Python Screen Scrapper - for personal use only
 
-Written by Justin Grimes (@justgrimes) & Josh Tauberer (@joshdata)
-	Josh did most of the heavy lifting; Justin owes him a drink of his choice & at a place of his choosing
+Written by Matt Caywood (@mattcaywood) based on work by Justin Grimes (@justgrimes) & Josh Tauberer (@joshdata) & harlan yu
 
-Simple python script that scrapes a SmarTrip user's transit usage data from WMATA website (http://smartrip.wmata.com)
-Script authenticates into WMATA website using Mechanize library and then extracts data from HTML tables using Beautiful Soup library then writes lovely clean CSV files.
+Simple python script that scrapes usage data
+Script authenticates into website using Mechanize library and then extracts data from HTML tables using Beautiful Soup library then writes lovely clean CSV files.
 
-*IMPORTANT* To run this code, use python CABIscraper.py -u <username> -p <password>
+*IMPORTANT* This code does not actually work yet! To run this code, use python car2goscraper.py -u <username> -p <password>
 
 Enjoy!
